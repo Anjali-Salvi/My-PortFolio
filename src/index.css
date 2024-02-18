@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=League+Spartan:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* 'Calligraffitti', cursive; */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .5px;
+}
+
+body{
+  background-color: black;
+  overflow-x: hidden;
+  
+}
+
+h1,a,p,ul{ 
+  color: rgb(153, 229, 242);
+  text-decoration: none;
+  list-style-type: none;
+} 
+
+p::selection, h1::selection, a::selection{
+  background-color: white;
+  color: black;
+}
+
+/* h1,a,p,ul{ 
+  color: rgb(194, 255, 210);
+  text-decoration: none;
+  list-style-type: none;
+}  */
+
